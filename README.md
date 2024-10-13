@@ -1,1 +1,3 @@
 # BlazorWebApp_Portfolio
+
+.vs/
