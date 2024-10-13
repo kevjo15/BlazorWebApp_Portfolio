@@ -1,0 +1,11 @@
+﻿<div class="bg-white p-6 rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold text-gray-800">@Title</h2>
+    <p class="mt-4 text-gray-600">@Description</p>
+    <a href="@Link" class="mt-6 inline-block text-blue-600 hover:underline">Läs mer</a>
+</div>
+
+@code {
+    [Parameter] public string Title { get; set; }
+    [Parameter] public string Description { get; set; }
+    [Parameter] public string Link { get; set; }
+}

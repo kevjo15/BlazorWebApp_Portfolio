@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp\BlazorApp.csproj", "{7FBF49C9-F35B-4A8A-92BB-C80DFD1F39C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API-Layer", "API-Layer\API-Layer.csproj", "{FA51D4DF-15D5-4731-B85D-DFDDDCD1806A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp.Client", "BlazorApp\BlazorApp.Client\BlazorApp.Client.csproj", "{BF9F1F3C-2AAE-4381-9AC0-11EE98D1F991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application-Layer", "Application-Layer\Application-Layer.csproj", "{64B1E17D-8468-4A92-B463-7F33630AF4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Layer", "API-Layer\API-Layer.csproj", "{FA51D4DF-15D5-4731-B85D-DFDDDCD1806A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain-Layer", "Domain-Layer\Domain-Layer.csproj", "{45163D0A-C50D-4925-8856-183BBF7AAC87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application-Layer", "Application-Layer\Application-Layer.csproj", "{64B1E17D-8468-4A92-B463-7F33630AF4D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure-Layer", "Infrastructure-Layer\Infrastructure-Layer.csproj", "{0B914571-283F-4204-8DA2-52CA59F6DE72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain-Layer", "Domain-Layer\Domain-Layer.csproj", "{45163D0A-C50D-4925-8856-183BBF7AAC87}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure-Layer", "Infrastructure-Layer\Infrastructure-Layer.csproj", "{0B914571-283F-4204-8DA2-52CA59F6DE72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp-empty1\BlazorApp.csproj", "{BB42C4E5-335C-4ECF-9201-29FCF116F367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7FBF49C9-F35B-4A8A-92BB-C80DFD1F39C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FBF49C9-F35B-4A8A-92BB-C80DFD1F39C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FBF49C9-F35B-4A8A-92BB-C80DFD1F39C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FBF49C9-F35B-4A8A-92BB-C80DFD1F39C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF9F1F3C-2AAE-4381-9AC0-11EE98D1F991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF9F1F3C-2AAE-4381-9AC0-11EE98D1F991}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF9F1F3C-2AAE-4381-9AC0-11EE98D1F991}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF9F1F3C-2AAE-4381-9AC0-11EE98D1F991}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA51D4DF-15D5-4731-B85D-DFDDDCD1806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FA51D4DF-15D5-4731-B85D-DFDDDCD1806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA51D4DF-15D5-4731-B85D-DFDDDCD1806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +35,10 @@ Global
 		{0B914571-283F-4204-8DA2-52CA59F6DE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B914571-283F-4204-8DA2-52CA59F6DE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B914571-283F-4204-8DA2-52CA59F6DE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB42C4E5-335C-4ECF-9201-29FCF116F367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB42C4E5-335C-4ECF-9201-29FCF116F367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB42C4E5-335C-4ECF-9201-29FCF116F367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB42C4E5-335C-4ECF-9201-29FCF116F367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
