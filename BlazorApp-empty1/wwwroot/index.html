@@ -6,7 +6,12 @@
     <title>BlazorApp-empty1</title>
     <base href="/" />
     <link href="css/app.css" rel="stylesheet" />
-    
+    <script type="module" src="/pdfjs/pdf.mjs"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdfjs/pdf.worker.mjs';
+    </script>
+
+
     <!-- If you add any scoped CSS files, uncomment the following to load them
     <link href="BlazorApp_empty1.styles.css" rel="stylesheet" /> -->
 </head>

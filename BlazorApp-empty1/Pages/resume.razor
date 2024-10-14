@@ -1,11 +1,9 @@
 ﻿@page "/resume"
 
-<section class="py-10">
-    <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-bold">Mitt CV</h1>
-        <p class="text-xl mt-4">Ladda ner mitt CV genom att klicka på knappen nedan.</p>
-        <a href="/cv/cv.pdf" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700">
-            Ladda ner mitt CV
-        </a>
+<section class="flex justify-center items-center min-h-screen bg-gray-100">
+    <div class="bg-white p-4 shadow-lg">
+        <!-- Prova att visa PDF:en direkt utan PDF.js -->
+        <iframe src="/cv/cv.pdf#toolbar=0&navpanes=0&scrollbar=0" class="w-full h-[842px]" style="height: 842px; width: 595px;" frameborder="0"></iframe>
+
     </div>
 </section>
